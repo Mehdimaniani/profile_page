@@ -1,0 +1,118 @@
+body {
+  background: url('banner.png');
+}
+
+.card {
+  
+  background-color: #e3f2fd; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e3f2fd;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.card a img {
+  width: 30px;
+  height: auto;
+}
+
+.card h2 {
+  color: #0D47A1; 
+}
+
+.half-width {
+  width: 50%;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+.best-brands {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.brand-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.brand-card {
+  margin: 20px;
+  width: calc(33.333% - 40px);
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.brand-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.brand-card {
+  position: relative;
+  text-align: center; 
+  margin: 20px; 
+  width: calc(33.333% - 40px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.brand-image {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.brand-image img {
+  width: 100%;
+  height: auto; 
+  transition: opacity 0.5s ease-in-out;
+}
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; 
+  opacity: 0;
+}
+
+.brand-card:hover .hover-image {
+  opacity: 1;
+}
+.brand-card:hover .base-image {
+  opacity: 0;
+}
+
+.list-inline{
+    display: flex;
+    justify-content: space-evenly  ;
+    align-items: center;
+    font-size: 50px;  
+    width: 200px;
+     }
+ 
+#social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.logo-rs {
+
+  width: 80%;
+  text-align: center;
+}
